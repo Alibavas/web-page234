@@ -1,0 +1,137 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+.btum button{
+    display: flex;
+
+    
+    
+}
+header{
+    display: flex;
+    background-color: rgb(12, 1, 1);
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+
+}
+section h1{
+    font-family: quicksand;
+    font-size: 50px;
+    
+}
+
+.btum{
+    display: flex;
+    gap: 1rem;
+    margin-right: 50px;
+    width: 200px;
+    margin-top: 10px;
+    margin-right: 100px;
+
+
+}
+.black{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+    border: solid 1 white;
+}
+.blue{
+    background-color: rgb(78, 78, 217);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.blue:hover{
+    background-color: white;
+    color: black;
+}
+
+nav{
+justify-content: space-between;
+display: flex;
+transform: scale(2);
+    
+}
+.logo{
+    display:flex
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: rgb(220, 218, 246);
+    flex-direction: column;
+    height: 300px;
+    border: none;
+}
+.space{
+    padding-bottom: 0px;
+    transform: scale(2.5);
+
+}
+input[type="search"]{
+    position: relative;
+    display: flex;
+}
+.buttons{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    border: none;
+    transform: scale(0.7);
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    grid-template-rows:  50% 50%;
+    padding: 100px;
+    padding-left: 300px;
+
+} 
+.f1{
+    display: flex;
+    font-size: 20px;
+}
+.pi{
+    grid-row: 1/4 ;
+    grid-column: 1/4;
+}
+img{
+    padding-right: 20px;
+}
+footer{
+    background-color: black;
+    display: grid;
+    grid-template-rows: 10% 10% 10% 10% 60%;
+    grid-template-columns: 10% 10% 10% 10% 60%;
+    width: 1500px;
+    margin-left: -300px;
+    padding-left: 40px;
+
+}
+.fot {
+    color: white;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fot ul li{
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fots{
+    color: white;
+    padding-left: 400px;
+    padding-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
